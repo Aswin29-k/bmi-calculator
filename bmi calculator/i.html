@@ -1,0 +1,48 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+          <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        
+        <div class="one">
+            <h1 class="four">BMI CALCULATOR</h1>
+            <input id="two" placeholder="height">
+            <input id="ten" placeholder="weight">
+            <div id="seven"></div>
+            <div id="value"></div>
+            
+            <button class="bt" onclick="change()"> click me</button>
+        </div>
+        <script>
+            function change(){
+             let a=Number(document.getElementById("two").value)
+             let k=Number(document.getElementById("ten").value)
+             let b=document.getElementById("seven")
+             let value=document.getElementById("value")
+             let total=Math.floor(a/(k^2))
+            // let total=k^2
+             value.textContent=total
+             
+             if (total<18.5) {
+                b.innerText="your is bmi so low"
+             }
+             else if(18.5<total<24.5){
+                b.innerText="your is bmi is normal"
+             }
+             else if(25<total<29.9){
+                b.innerText="your bmi is so overweight"
+             }
+             else{
+                b.innerText="your have obesity"
+             }
+            }
+             
+        </script>
+    </body>
+
+
+
+
+</html>

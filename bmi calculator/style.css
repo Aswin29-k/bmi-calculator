@@ -1,0 +1,86 @@
+h1{
+    color: blue;
+}
+.one{
+    background: linear-gradient(blue,black);
+    width: 500px;
+    height: 500px;
+    border: 10px;
+    border-radius: 5px;
+    border-color: aqua;
+    border-style:solid ;
+
+    position: relative;
+    right: 50px;
+    left: 500px;
+    margin-top: 10%;
+
+
+}
+#two{
+    position: absolute;
+    width: 300px;
+    right: 500px;
+    left: 80px;
+    top: 300px;
+    height: 30px;
+    
+
+}
+body{
+    background:linear-gradient(green,rgb(28, 51, 198)) ;
+}
+.four{
+    color: red;
+    
+     display: flex;
+     justify-content: center;
+     
+
+
+}
+#seven{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    font-weight: 400px;
+    color:red;
+    margin-top: 200px;
+    margin-left: 40%;
+    
+    
+    
+    
+
+    
+}
+.bt{
+    position: absolute;
+    top: 400px;
+    right: 200px;
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    border: 10px;
+    border-style: solid;
+    color: red;
+    background-color: blue;
+
+    
+
+}
+#two:focus&& #ten:focus{
+    color: red;
+    border-radius: 10px;
+    
+
+}
+#ten{
+    margin-left: 18%;
+    height:30px;
+    width: 300px;
+    padding: 10px;
+    margin-top: 30%;
+
+    
+}
+
